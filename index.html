@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nemium</title>
+
+</head>
+<aside>
+    <p>Variantes del Proyecto</p>
+    <ul>
+        <li><a href="">Nemium A</a></li>
+        <li><a href="">Nemium B</a></li>
+        <li><a href="">Nemium C</a></li>
+        <li><a href="">Nemium D</a></li>
+        <li><a href="">Nemium E</a></li>
+    </ul>
+    <br><br>
+    <p>Contenido</p>
+    <details open>
+        <summary>Setup</summary>
+        <ol>
+            <li><a href="#google">Google Chorme</a></li>
+            <li><a href="#visualcode">Visual Studio Code</a></li>
+            <li><a href="#figma">Figma</a></li>
+            <li><a href="#github">GitHub</a></li>
+        </ol>
+    </details>
+    <details open>
+        <summary>Conceptos esenciales del Desarrollo Web</summary>
+        <ol>
+            <li><a href="#html">Que es HTML</a></li>
+            <li><a href="#etiquetas">Etiquetas</a></li>
+            <li><a href="#dom">DOM</a></li>
+            <li><a href="#semantica">Semántica</a></li>
+            <li><a href="#atributos">Atributos</a></li>
+            <li><a href="#css">Que es CSS</a></li>
+        </ol>
+    </details>
+</aside>
+<header>
+    <img src="./src/images/patron-1.png" alt="patron">
+    <h1>Curso esencial de HTML y CSS</h1>
+    <p>Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de
+        contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
+    <br>
+    <hr>By : Gabriel Cabredo</hr>
+</header>
+<main>
+    <div name="Setup">
+        <h2>Setup</h2>
+        <ol style="font-style: initial;">
+            <img src="./src/images/chrome-black.png" alt="imagen facherita chorme" id="google">
+            <li >
+                <b>Google Chorme</b>
+                <p>Chrome va a ser <b>el navegador que utilizaremos en el curso</b> por su extenso soporte de nuevos
+                    estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+            </li>
+    
+            <img src="./src/images/vs-code-black.png" alt="imagen facherita VS" id="visualcode">
+            <li>
+                <b>Visual Studio Code</b>
+                <p>CVisual Studio Code es <b><i>el editor de texto más popular y potente del mercado actualmente</i></b>, su
+                    fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para
+                    cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>
+            </li>
+    
+            <img src="./src/images/figma-black.png" alt="imagen facherita Figma" id="figma">
+            <li>
+                <b>Figma</b>
+                <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para
+                    su implementación por su <b><i>fácil uso</i></b> porque puede ser usado directamente desde el navegador.
+                </p>
+            </li>
+    
+            <img src="./src/images/github-black.png" alt="imagen facherita Github" id="github">
+            <li>
+                <b>Github</b>
+                <p>Así como en Facebook te encuentran tus amigos, en Github <b><i>te encuentran otras programadoras y
+                            programadores</i></b> de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código
+                    y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar
+                    tu futuro portafolio.</p>
+               
+                <blockquote cite="Leonidas Esteban">
+                   <p>
+                    "Este es el inicio de tu carrera como Desarrollador Web"                   
+                   </p>
+                   <p>-Leonidas Esteban</p>
+                </blockquote>
+                
+
+            </li>
+        </ol>
+    </div>
+    <div name = "ConceptosEscenciales">
+    
+    
+        <h2>Conceptos esenciales del Dessarrollo Web</h2>
+        <ol>
+            <li id="html">Que es HTML</li>
+            <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html lang="en"&gt;<br>
+                &lt;head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Document&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&lt;body&gt;<br>
+
+                &nbsp;&nbsp;&lt;/body&gt;<br>
+                &lt;/html&gt;<br>
+            </code>
+            <br>
+            <li id="etiquetas">Etiquetas</li>
+            <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+            <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
+            <li id="dom">DOM</li>
+            <p>El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
+            <img src="./src/images/dom-black.jpg" alt="dom facherito" height="470">
+            <li id="semantica">Semántica</li>
+            <p>La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
+            <li id="atributos">Atributos</li>
+            <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
+            <li id="css">CSS</li>
+            <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
+            <img src="./src/images/css-black.jpg" alt="css facherito">
+    
+        </ol>
+        </div>
+        <div name = "modeloCaja">
+            <h3>Modelo de Caja</h3>
+            <h4>El modelo de caja esta compuesto por:</h4>
+            <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+            <ol>
+                <li>Tamaño del contenido / ancho y alto</li>
+                <li>Padding / Relleno</li>
+                <li>Border / Bordes</li>
+                <li>Margin / Márgenes</li>
+            </ol>
+    
+            <h4>Propiedades físicas para el modelo de caja</h4>
+            <ul type = "square">
+                <li>width / height</li>
+                <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+                <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+                <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+            </ul>
+            <h4>Propiedades lógicas para el modelo de caja:</h4>
+            <ul type = "circle">
+                <li>inline-size / block-size</li>
+                <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+                <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+                <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+            </ul>
+        </div>
+</main>
+
+   
+       <div name = "frase">
+        <h3>Frase motivadora</h3>
+        <img src="/src/memes/images.jpeg" style="padding-left: 100px;"  alt="meme facherito">
+       </div>
+        <br>
+        <br>
+        <div>
+        <hr>Si tienes alguna duda contactame a <a href="202000210@est.umms.edu">202000210@est.umms.edu</a></hr>
+          
+        </div>
+<footer style="background-color: black;">
+    <p style="color: blanchedalmond;">&copy; Gabriel Cabredo </p>
+         
+            <nav >
+                <a href="https://www.facebook.com/gabreilwens.cabredotazza/"><img src="./src/icons/facebook.svg" height="50" alt="facebook"></a>
+                <a href="https://www.instagram.com/gabriel_ct1902/"><img src="./src/icons/instagram.svg" height="50" alt="instagram"></a>
+                <a href="https://twitter.com/Stressado_19"><img src="./src/icons/twitter.svg" height="50" alt="twitter"></a>
+            </nav>
+       
+      
+
+    </footer>  
+
+</html>
