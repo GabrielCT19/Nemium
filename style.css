@@ -1,18 +1,130 @@
 html{
      font-family: 'Roboto', sans-serif; 
+     font-size: 16px;
+     background-color: #87A6E3;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    width: 1366px;
+    margin: 0px auto;
+    padding-top: 64px;
+    background-color: white;
 }
 .page_tittle{
     font-size: 60px;
     margin-bottom: 16px;
 }
+aside{
+    font-size: 14px ;
+    color: #3a3a3a;
+   
+    position: sticky;
+    scroll-behavior: smooth;
+
+    margin: 0px 60px 0px 116px;
+    width: 188px;
+
+}
+aside ul{
+    line-height: 40px;    
+}
+aside a{
+    text-decoration: none;
+    padding-left: 8px;
+    line-height: 40px;
+    box-sizing: border-box;
+    color: #555555;
+}
+.nemiums li{
+    width: 188px;
+    height: 40px;
+    padding: 8px auto 8px 8px;
+    
+}
+.pointer {
+    border-radius: 5px;
+    
+    background-color: black;
+    color : white;
+   
+}
+.pointer a{
+    color : white;
+    padding-left: 0px;
+}
+.contenido{
+    margin-top: 100px;
+}
+
 .poster{
     height: 350px;
+    
     width: 100%;
     background-image: url("./src/images/patron-1.png");
-    margin: 0;
+   
+}
+details>summary {
+ 
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+
+  }
+  
+  summary::before {
+    content: '〉';
+    margin-right: 10px;
+    height: 17.5px;
+  }
+  details[open] summary:before {
+    content: '﹀';
+    padding-top: 5px;
+    margin-right: 10px;
+    
+    height: 17.5px;
+  }
+  summary{
+    line-height: 20px;
+    margin: 0px auto 20px 0px;
+    padding: 0;
+    font-weight: bold;
+  }
+ 
+
+
+blockquote{
+    color : #424242;
+    font-size: 24px;
+    margin:32px auto 112px 0px;
+    border-left: 4px solid #212121;
+    
+
+}
+blockquote p{
+    margin: 0px auto 16px 16px ;
+    font-size: 24px;
+
+    line-height: 32px; 
+}
+.autor{
+    color : #616161;
+    
 }
 p{
     width: 902px;
+    margin: auto auto 32px 0;
+    font-size: 16px;
+}
+.box-code{
+    background: #FEC62E;
+    width: 900px;
+    height: 344px;
+    font-size: 16px;
+    padding: 40px 351px 40px 40px;
+    box-sizing: border-box;
+    line-height: 24px;    
 }
 hr{
     width: 920px;
@@ -23,13 +135,44 @@ hr{
 .hr{
     margin-top: 0px;
     font-size: 12px;
+    list-style: 1px solid rgba(97, 97, 97, 0.2);
+}
+ul{
+    font-size: 16px;
+    list-style: none;
+    padding-left: 0px;
+    box-sizing: border-box;
+    color : black;
+    
 }
 h2{
     font-size: 32px;
     margin: 40px 0px;
 }
+h4{
+    font-size: 24px;
+}
+.modelocaja ul{
+    list-style: initial;
+}
+.modelocaja ol{
+    padding: 0;
+}
+.modelocaja li{
+    margin: 16px auto 16px 20px ;
+}
+.modelocaja{
+    line-height: 24px;
+}
+.page_tittle{
+    margin: 0px;
+}
 .li_main{
+    font-size: 24px;
     text-decoration: underline 4px black ;
+    text-underline-offset: 9px;
+    margin: 16px auto 24px 0px;  
+    
     
 }
 
@@ -37,4 +180,34 @@ h2{
     text-decoration: underline 4px black ;
     
     
+}
+.meme{
+    margin: 15px 113px 72px 163px;
+    width: 400px;
+    
+}
+.contacto a{
+    
+    color : black;
+}
+footer{
+    background-color: #212429;
+    color: white;
+    text-align: center;
+    height: 174px;
+}
+footer p {
+    padding-top: 48px;
+    margin : 0px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 37,5px;
+}
+nav{
+    align-content: center;
+    margin-top: 19px;
+}
+nav img{
+    width: 18px;
+    margin: 0px 22px auto 0px;
 }
